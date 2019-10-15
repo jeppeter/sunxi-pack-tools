@@ -1,4 +1,4 @@
-SUBDIRS := merge_uboot update_uboot_fdt update_uboot script update_boot0 update_scp update_toc0 gen_check_code update_mbr update_fes1
+SUBDIRS := merge_uboot update_uboot_fdt update_uboot script update_boot0 update_scp update_toc0 gen_check_code update_mbr update_fes1 signature
 
 all: $(SUBDIRS)
 
